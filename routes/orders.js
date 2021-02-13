@@ -8,4 +8,8 @@ router.get("/", (req, res) => {
   });
 });
 
+router.post("/", async (req, res) => {
+  res.redirect("/orders");
+});
+
 module.exports = router;
